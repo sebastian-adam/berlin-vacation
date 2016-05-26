@@ -1,0 +1,47 @@
+.modal-dialog {
+  width: 80%;
+}
+
+#myCarousel {
+  margin: 50px -10px;
+  border-radius: 30px;
+
+}
+.carousel-inner div p {
+  font-size: 100px;
+  text-align: center;
+}
+
+.carousel-inner div {
+  width: 1000px;
+  height: 800px;
+  background-size: 100%;
+  border-radius: 50px;
+
+}
+
+.carousel-inner div:nth-of-type(1) {
+  background-image: url(../img/carousel1.jpg);
+  color: white;
+}
+
+.carousel-inner div:nth-of-type(2) {
+  background-image: url(../img/carousel2.jpg);
+  color: red;
+}
+
+.carousel-inner div:nth-of-type(3) {
+  background-image: url(../img/carousel3.png);
+  color: lightblue;
+}
+
+
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-indicators .active {
+	background-color: gold;
+}
+.carousel-indicators li {
+	border-color: #222;
+}
