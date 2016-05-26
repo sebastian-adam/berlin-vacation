@@ -31,7 +31,7 @@
                     <li><a href="#">booking</a></li>
                   </ul>
               </li>
-              <li><a href="#">Sightseeing</a></li>
+              <li><a data-toggle="modal" href="#textModal">Sightseeing</a></li>
               <li><a href="#">Food</a></li>
               <li><a href="#">Map</a></li>
             </ul>
@@ -71,73 +71,123 @@
 
 <!--main body begin-->
 
-<div class="container">
-  <div class="row">
-
-    <div id="modern" class="col-md-6">
-      <h1>A modern City</h1>
-      <img class="img-responsive" src="img/berlin.jpg" alt="Crowded Berliner Club" />
-      <p>
-        Kickstarter bushwick squid, plaid occupy cray kitsch offal meh. Retro flexitarian vice locavore, shabby chic vinyl keffiyeh kogi godard pitchfork. Kogi meh flexitarian kinfolk thundercats. Single-origin coffee you probably haven't heard of them pug banjo kitsch. Leggings retro lo-fi locavore asymmetrical try-hard. Jean shorts try-hard mixtape, raw denim kombucha photo booth deep v literally pork belly. Narwhal XOXO taxidermy, master cleanse before they sold out four dollar toast stumptown sriracha pork belly gluten-free chillwave.
-
-        Fixie health goth put a bird on it pour-over hammock, readymade keytar hoodie gentrify photo booth kale chips selvage cray meh brunch. Offal wayfarers sustainable yuccie. Celiac post-ironic chillwave echo park. YOLO typewriter vinyl fashion axe. Aesthetic meh biodiesel, hammock mustache chambray bushwick neutra butcher. Fap bitters chicharrones, biodiesel banjo heirloom direct trade VHS kitsch lo-fi. Kickstarter hoodie franzen, kombucha chartreuse kale chips actually austin shoreditch mustache lomo disrupt tacos cardigan tousled.
-
-        Pop-up crucifix thundercats tumblr readymade truffaut, austin lomo meditation waistcoat hella pug offal. Pinterest slow-carb taxidermy offal, meh paleo mumblecore. Deep v whatever hoodie, 3 wolf moon blue bottle disrupt sartorial echo park. Ramps selvage authentic, bitters mustache twee kale chips blog hammock waistcoat kinfolk wayfarers. Vice ugh franzen, mlkshk skateboard jean shorts meggings ethical post-ironic +1 wayfarers microdosing. Tofu XOXO banh mi offal distillery lomo, microdosing sartorial. Swag microdosing you probably haven't heard of them whatever before they sold out wolf.
-
-        Venmo chicharrones polaroid, flexitarian brunch green juice aesthetic kickstarter drinking vinegar hammock listicle DIY artisan sriracha. Yr master cleanse slow-carb kale chips authentic, DIY jean shorts pop-up street art tacos direct trade locavore butcher pug. Listicle man braid cold-pressed tote bag shoreditch mixtape. PBR&B blog ennui meh. Direct trade fanny pack brunch YOLO 3 wolf moon. Vice pour-over messenger bag occupy. Knausgaard kale chips tote bag, affogato hammock 8-bit gluten-free tattooed master cleanse.
-      </p>
-
+    <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <img class="img-responsive" src="img/modern1.jpg" alt="" />
+        <div id="modern" class="col-md-6">
+          <h1>A modern City</h1>
+          <img class="img-responsive" src="img/berlin.jpg" alt="Crowded Berliner Club" />
+          <p>
+            Kickstarter bushwick squid, plaid occupy cray kitsch offal meh. Retro flexitarian vice locavore, shabby chic vinyl keffiyeh kogi godard pitchfork. Kogi meh flexitarian kinfolk thundercats. Single-origin coffee you probably haven't heard of them pug banjo kitsch. Leggings retro lo-fi locavore asymmetrical try-hard. Jean shorts try-hard mixtape, raw denim kombucha photo booth deep v literally pork belly. Narwhal XOXO taxidermy, master cleanse before they sold out four dollar toast stumptown sriracha pork belly gluten-free chillwave.
+
+            Fixie health goth put a bird on it pour-over hammock, readymade keytar hoodie gentrify photo booth kale chips selvage cray meh brunch. Offal wayfarers sustainable yuccie. Celiac post-ironic chillwave echo park. YOLO typewriter vinyl fashion axe. Aesthetic meh biodiesel, hammock mustache chambray bushwick neutra butcher. Fap bitters chicharrones, biodiesel banjo heirloom direct trade VHS kitsch lo-fi. Kickstarter hoodie franzen, kombucha chartreuse kale chips actually austin shoreditch mustache lomo disrupt tacos cardigan tousled.
+
+            Pop-up crucifix thundercats tumblr readymade truffaut, austin lomo meditation waistcoat hella pug offal. Pinterest slow-carb taxidermy offal, meh paleo mumblecore. Deep v whatever hoodie, 3 wolf moon blue bottle disrupt sartorial echo park. Ramps selvage authentic, bitters mustache twee kale chips blog hammock waistcoat kinfolk wayfarers. Vice ugh franzen, mlkshk skateboard jean shorts meggings ethical post-ironic +1 wayfarers microdosing. Tofu XOXO banh mi offal distillery lomo, microdosing sartorial. Swag microdosing you probably haven't heard of them whatever before they sold out wolf.
+
+            Venmo chicharrones polaroid, flexitarian brunch green juice aesthetic kickstarter drinking vinegar hammock listicle DIY artisan sriracha. Yr master cleanse slow-carb kale chips authentic, DIY jean shorts pop-up street art tacos direct trade locavore butcher pug. Listicle man braid cold-pressed tote bag shoreditch mixtape. PBR&B blog ennui meh. Direct trade fanny pack brunch YOLO 3 wolf moon. Vice pour-over messenger bag occupy. Knausgaard kale chips tote bag, affogato hammock 8-bit gluten-free tattooed master cleanse.
+          </p>
+
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-responsive" src="img/modern1.jpg" alt="" />
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/modern2.jpeg" alt="" />
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/modern3.jpg" alt="" />
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-            <img class="img-responsive" src="img/modern2.jpeg" alt="" />
-        </div>
-        <div class="col-md-4">
-            <img class="img-responsive" src="img/modern3.jpg" alt="" />
+        <div id="history" class="col-md-6">
+          <h1>Dynamic History</h1>
+          <img class="img-responsive" src="img/brandenburg.jpg" alt="Brandenburg Gate" />
+          <p>
+            Kickstarter bushwick squid, plaid occupy cray kitsch offal meh. Retro flexitarian vice locavore, shabby chic vinyl keffiyeh kogi godard pitchfork. Kogi meh flexitarian kinfolk thundercats. Single-origin coffee you probably haven't heard of them pug banjo kitsch. Leggings retro lo-fi locavore asymmetrical try-hard. Jean shorts try-hard mixtape, raw denim kombucha photo booth deep v literally pork belly. Narwhal XOXO taxidermy, master cleanse before they sold out four dollar toast stumptown sriracha pork belly gluten-free chillwave.
+
+            Fixie health goth put a bird on it pour-over hammock, readymade keytar hoodie gentrify photo booth kale chips selvage cray meh brunch. Offal wayfarers sustainable yuccie. Celiac post-ironic chillwave echo park. YOLO typewriter vinyl fashion axe. Aesthetic meh biodiesel, hammock mustache chambray bushwick neutra butcher. Fap bitters chicharrones, biodiesel banjo heirloom direct trade VHS kitsch lo-fi. Kickstarter hoodie franzen, kombucha chartreuse kale chips actually austin shoreditch mustache lomo disrupt tacos cardigan tousled.
+
+            Pop-up crucifix thundercats tumblr readymade truffaut, austin lomo meditation waistcoat hella pug offal. Pinterest slow-carb taxidermy offal, meh paleo mumblecore. Deep v whatever hoodie, 3 wolf moon blue bottle disrupt sartorial echo park. Ramps selvage authentic, bitters mustache twee kale chips blog hammock waistcoat kinfolk wayfarers. Vice ugh franzen, mlkshk skateboard jean shorts meggings ethical post-ironic +1 wayfarers microdosing. Tofu XOXO banh mi offal distillery lomo, microdosing sartorial. Swag microdosing you probably haven't heard of them whatever before they sold out wolf.
+
+            Venmo chicharrones polaroid, flexitarian brunch green juice aesthetic kickstarter drinking vinegar hammock listicle DIY artisan sriracha. Yr master cleanse slow-carb kale chips authentic, DIY jean shorts pop-up street art tacos direct trade locavore butcher pug. Listicle man braid cold-pressed tote bag shoreditch mixtape. PBR&B blog ennui meh. Direct trade fanny pack brunch YOLO 3 wolf moon. Vice pour-over messenger bag occupy. Knausgaard kale chips tote bag, affogato hammock 8-bit gluten-free tattooed master cleanse.
+          </p>
+
+          <div class="row">
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/historic1.jpg" alt="historic berlin" />
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/historic2.jpg" alt="historic berlin" />
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/historic3.jpg" alt="historic berlin" />
+            </div>
+          </div>
         </div>
       </div>
-
-
     </div>
-
-    <div id="history" class="col-md-6">
-      <h1>Dynamic History</h1>
-      <img class="img-responsive" src="img/brandenburg.jpg" alt="Brandenburg Gate" />
-      <p>
-        Kickstarter bushwick squid, plaid occupy cray kitsch offal meh. Retro flexitarian vice locavore, shabby chic vinyl keffiyeh kogi godard pitchfork. Kogi meh flexitarian kinfolk thundercats. Single-origin coffee you probably haven't heard of them pug banjo kitsch. Leggings retro lo-fi locavore asymmetrical try-hard. Jean shorts try-hard mixtape, raw denim kombucha photo booth deep v literally pork belly. Narwhal XOXO taxidermy, master cleanse before they sold out four dollar toast stumptown sriracha pork belly gluten-free chillwave.
-
-        Fixie health goth put a bird on it pour-over hammock, readymade keytar hoodie gentrify photo booth kale chips selvage cray meh brunch. Offal wayfarers sustainable yuccie. Celiac post-ironic chillwave echo park. YOLO typewriter vinyl fashion axe. Aesthetic meh biodiesel, hammock mustache chambray bushwick neutra butcher. Fap bitters chicharrones, biodiesel banjo heirloom direct trade VHS kitsch lo-fi. Kickstarter hoodie franzen, kombucha chartreuse kale chips actually austin shoreditch mustache lomo disrupt tacos cardigan tousled.
-
-        Pop-up crucifix thundercats tumblr readymade truffaut, austin lomo meditation waistcoat hella pug offal. Pinterest slow-carb taxidermy offal, meh paleo mumblecore. Deep v whatever hoodie, 3 wolf moon blue bottle disrupt sartorial echo park. Ramps selvage authentic, bitters mustache twee kale chips blog hammock waistcoat kinfolk wayfarers. Vice ugh franzen, mlkshk skateboard jean shorts meggings ethical post-ironic +1 wayfarers microdosing. Tofu XOXO banh mi offal distillery lomo, microdosing sartorial. Swag microdosing you probably haven't heard of them whatever before they sold out wolf.
-
-        Venmo chicharrones polaroid, flexitarian brunch green juice aesthetic kickstarter drinking vinegar hammock listicle DIY artisan sriracha. Yr master cleanse slow-carb kale chips authentic, DIY jean shorts pop-up street art tacos direct trade locavore butcher pug. Listicle man braid cold-pressed tote bag shoreditch mixtape. PBR&B blog ennui meh. Direct trade fanny pack brunch YOLO 3 wolf moon. Vice pour-over messenger bag occupy. Knausgaard kale chips tote bag, affogato hammock 8-bit gluten-free tattooed master cleanse.
-      </p>
-
-      <div class="row">
-        <div class="col-md-4">
-            <img class="img-responsive" src="img/historic1.jpg" alt="historic berlin" />
-        </div>
-        <div class="col-md-4">
-            <img class="img-responsive" src="img/historic2.jpg" alt="historic berlin" />
-        </div>
-        <div class="col-md-4">
-            <img class="img-responsive" src="img/historic3.jpg" alt="historic berlin" />
-        </div>
-      </div>
-
-
-    </div>
-
-
-
-  </div>
-</div>
 
 <!--main body end-->
 
+<!--modal form start-->
 
+  <div class="modal fade" id="textModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Book here!</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+                <input type="tel" class="form-control" id="mobilePhone" placeholder="Mobile Phone">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="creditCard">Credit Card</label>
+                <input type="text" pattern="[0-9]{13,16}" class="form-control" id="creditCard" placeholder="Credit Card">
+              </div>
+              <div class="form-group">
+                <select class="form-control">
+                  <option>Send $ to Sebastian</option>
+                  <option>Send $ to August</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary right" data-dismiss="modal">Submit Payment</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- <div class="modal fade" id="textModal">
+
+
+                <button type="submit" class="btn btn-primary" data-dismiss="modal">Send me link</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div> -->
+
+<!--modal form end-->
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
